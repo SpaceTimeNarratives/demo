@@ -491,7 +491,7 @@ Brudholme farm
 Coniston range
 Langley Castle
 Falls of Clyde
-Lower Darwent,
+Lower Darwent
 Parsonage Land
 CAUDEBEC FELLS
 lake of GENEVA
@@ -1234,9 +1234,9 @@ Ladies Rake
 Cherry-Holm
 Scales Tarn
 three Coves
-Weſtmorland
+Westmorland
 WESTMORLAND
-Croſs-fells
+Cross-fell
 The Lowther
 Portinscale
 Lady's Rake
@@ -2138,7 +2138,7 @@ Longtown
 Yeoman’s
 Bradness
 Grasmoor
-Penrith.
+Penrith
 Doe Crag
 Glasgow
 GRASMERE

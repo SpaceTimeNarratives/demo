@@ -1,0 +1,97 @@
+aboard                   RL      M6 
+above                    RL      M6 A5.1++ 
+abroad                   RL      M7 
+across                   RL      M6 
+afar                     RL      N3.3+ 
+afield                   RL      M6 
+aft                      RL      M6 
+aground                  RL      M6 
+ahead                    RL      M6 N4 T1.1.3 
+alfresco                 RL      M6 
+alongside                RL      M6 S5+ 
+anyplace                 RL      M6 
+anywhere                 RL      M6 
+apart                    RL      N3.3+ A1.8- S1.1.3- 
+ashore                   RL      M6 
+aside                    RL      M6 A10- A9+ 
+away                     RL      M6 A1.1.1% 
+awry                     RL      M6 A5.3- 
+behind                   RL      M6 A6.1- 
+below                    RL      M6 
+beneath                  RL      M6 
+beside                   RL      M6 
+between                  RL      M6 
+beyond                   RL      M6 N4 
+down-town                RL      M6 
+downstage                RL      M6 
+downstream               RL      N3.3++ 
+downtown                 RL      M6 
+downwards                RL      M6 A5.1- 
+elsewhere                RL      M6/A6.1- 
+ERL                      NP      Z3 
+everywhere               RL      M6/N5.1+ 
+forward                  RL      M6 T1.1.3 
+forwards                 RL      M6 A5.1+/A2.1 
+headlong                 RL      M6 
+henceforth               RL      T1.1.2/N4 
+here                     RL      M6 T1.1.2 T1.2 
+hereabouts               RL      M6 
+herein                   RL      M6 
+hither                   RL      M6 T1.1.2 
+home                     RL      H4 M6 
+homeward                 RL      M1 
+homewards                RL      M1 
+in-between               RL      M6 N3.1 
+indoors                  RL      H2 
+inside                   RL      M6 G2.1@ 
+left                     RL      M6 
+leftwards                RL      M6 G1.2 
+lengthways               RL      M6 N3.7 
+midstream                RL      W3/M4 T1.2 
+nation-wide              RL      M7/N5.1+ 
+nationwide               RL      M7/N5.1+ 
+near                     RL      N3.3- 
+nearby                   RL      N3.3- 
+nigh                     RL      M6 
+northbound               RL      M6 
+northward                RL      M6 
+northwards               RL      M6 
+nowhere                  RL      M6/Z6 
+off-stage                RL      K4- 
+offshore                 RL      M6 
+offstage                 RL      M6 
+opposite                 RL      M6 
+outdoors                 RL      M6 
+outside                  RL      M6 S5- 
+overboard                RL      N5.2+ M6 
+overhead                 RL      M6 
+overleaf                 RL      Q1.2 
+overseas                 RL      M6 
+past                     RL      M6 
+rightwards               RL      M6 
+sideways                 RL      M6 
+somewhere                RL      M6 
+south-ward               RL      M6 
+southward                RL      M6 
+Southwards               RL      M6 
+thenceforth              RL      T1.1.2/N4 
+there                    RL      M6 T1.2 
+throughout               RL      N5.1+ M6 
+together                 RL      S5+ T1.1.2 M6 
+underfoot                RL      M6 
+underneath               RL      M6 
+underwater               RL      O1.2/M4 
+up-country               RL      F4/M7 
+up-hill                  RL      M6 A12- 
+upright                  RL      O4.4 
+upstairs                 RL      H2 
+uptown                   RL      M6 
+upward                   RL      M6 N5+/A2.1 
+upwards                  RL      M6 N5+/A2.1 
+westward                 RL      M6 
+westwards                RL      M6 
+whereabout               RL      M6 
+within                   RL      M6 
+without                  RL      M6 
+world-wide               RL      W3 M7 A1.8+ 
+worldwide                RL      W3 M7 A1.8+ 
