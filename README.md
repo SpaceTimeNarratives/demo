@@ -1,2 +1,2 @@
-# spatial_narratives_workshop
-This repository contains resources for the spatial narrative workshop
+# Extracting Spatial Entities (Demo)
+This repository contains resources for the `Extracting Spatial Entities` demo
