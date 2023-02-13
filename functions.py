@@ -5,7 +5,7 @@ from lemminflect import getLemma, getInflection
 
 BG_COLOR = {
     'GPE':'#feca74', 'CARDINAL':'#e4e7d2', 'FAC':'#9cc9cc','QUANTITY':'#e4e7d2',
-    'PERSON':'#aa9cfc', 'ORDINAL':'#e4e7d2', 'ORG':'#7aecec', 'PL-NAME':'#feca74',
+    'PERSON':'#aa9cfc', 'ORDINAL':'#e4e7d2', 'ORG':'#7aecec', 'PLNAME':'#feca74',
     'no_tag':'#FFFFFF','GEO-NOUN': '#9cc9cc', 'NORP':'#d9fe74', 'LOC':'#9ac9f5',
     'DATE':'#c7f5a9', 'PRODUCT':'#edf5a9', 'EVENT': '#e1a9f5','TIME':'#a9f5bc',
     'WORK_OF_ART':'#e6c1d7', 'LAW':'#e6e6c1','LANGUAGE':'#c9bdc7', 
