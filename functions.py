@@ -11,7 +11,7 @@ BG_COLOR = {
     'ORG':'#7aecec', 'NORP':'#d9fe74', 'LOC':'#9ac9f5', 'DATE':'#c7f5a9',
     'PRODUCT':'#edf5a9', 'EVENT': '#e1a9f5','TIME':'#a9f5bc', 'WORK_OF_ART':'#e6c1d7',
     'LAW':'#e6e6c1','LANGUAGE':'#c9bdc7', 'PERCENT':'#c9ebf5', 'MONEY':'#b3d6f2',
-    'EMOTION':'#f2ecd0', 'TIME-sem':'#d0e0f2', 'MOVEMENT':'#f2d0d0','no_tag':'#FFFFFF'
+    'EMOTION':'#f2ecd0', 'TIME-SEM':'#d0e0f2', 'MOVEMENT':'#f2d0d0','no_tag':'#FFFFFF'
 }
 
 # Generates a dictionary of entities with the indexes as keys
