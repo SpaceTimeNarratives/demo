@@ -14,7 +14,7 @@ BG_COLOR = {
     'EMOTION':'#f2ecd0', 'TIME-sem':'#d0e0f2', 'MOVEMENT':'#f2d0d0','no_tag':'#FFFFFF'
 }
 
-# Generates a list of all tokens, tagged and untagged, for visualisation
+# Generates a dictionary of entities with the indexes as keys
 def extract_entities(text, ent_list, tag='PLNAME'):
   sorted(set(ent_list), key=lambda x:len(x), reverse=True)
   extracted_entities = {}
@@ -23,6 +23,32 @@ def extract_entities(text, ent_list, tag='PLNAME'):
       # modified to return the `tag` too...
       extracted_entities[match.start()+1]=text[match.start()+1:match.end()-1], tag
   return {i:extracted_entities[i] for i in sorted(extracted_entities.keys())}
+
+combine = lambda x, y: (x[0], x[1]+' '+y[1], x[2])
+
+# Combines multiple adjacent semantic tokens
+# Example: [('at','TIME'), ('this','TIME'), ('point','TIME')] => [('at this point', 'TIME')] 
+def combine_multi_tokens(a_list):
+  new_list = [a_list.pop()]
+  while a_list:
+    last = a_list.pop()
+    if new_list[-1][0] - last[0] == 1:
+      new_list.append(combine(last, new_list.pop()))
+    else:
+      new_list.append(last)
+  return sorted(new_list)
+
+# Generates a dictionary of semantic entities combining adjacent ones
+def extract_sem_entities(processed_text, tag_types):
+  entities, tokens = {}, [token.text for token in processed_text]
+  for tag_type in tag_types:
+    tag_indices = [(i, token.text, tag_type) for i, token in enumerate(processed_text) 
+                        if token._.pymusas_tags[0].startswith(tag_type[0])]
+    if tag_indices:
+      for i, token, tag in combine_multi_tokens(tag_indices):
+        start_char = 1+len(" ".join(tokens[:i]))
+        entities[start_char] = token, tag
+  return OrderedDict(sorted(entities.items()))
 
 # Merging entities
 def merge_entities(first_ents, second_ents):
