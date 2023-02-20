@@ -1,5 +1,4 @@
 import re
-import os
 from IPython.display import HTML
 from collections import OrderedDict
 from lemminflect import getLemma, getInflection
