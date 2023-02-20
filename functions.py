@@ -4,7 +4,6 @@ from IPython.display import HTML
 from collections import OrderedDict
 from lemminflect import getLemma, getInflection
 
-
 BG_COLOR = {
     'PLNAME':'#feca74','GEONOUN': '#9cc9cc', 'GPE':'#feca74', 'CARDINAL':'#e4e7d2',
     'FAC':'#9cc9cc','QUANTITY':'#e4e7d2','PERSON':'#aa9cfc', 'ORDINAL':'#e4e7d2',
@@ -24,7 +23,7 @@ def extract_entities(text, ent_list, tag='PLNAME'):
       extracted_entities[match.start()+1]=text[match.start()+1:match.end()-1], tag
   return {i:extracted_entities[i] for i in sorted(extracted_entities.keys())}
 
-combine = lambda x, y: (x[0], x[1]+' '+y[1], x[2])
+combine = lambda x, y: (x[0], x[1], x[2]+' '+y[2], x[3])
 
 # Combines multiple adjacent semantic tokens
 # Example: [('at','TIME'), ('this','TIME'), ('point','TIME')] => [('at this point', 'TIME')] 
@@ -42,12 +41,11 @@ def combine_multi_tokens(a_list):
 def extract_sem_entities(processed_text, tag_types):
   entities, tokens = {}, [token.text for token in processed_text]
   for tag_type in tag_types:
-    tag_indices = [(i, token.text, tag_type) for i, token in enumerate(processed_text) 
+    tag_indices = [(i, token.idx, token.text, tag_type) for i, token in enumerate(processed_text) 
                         if token._.pymusas_tags[0].startswith(tag_type[0])]
     if tag_indices:
-      for i, token, tag in combine_multi_tokens(tag_indices):
-        start_char = 1+len(" ".join(tokens[:i]))
-        entities[start_char] = token, tag
+      for i, idx, token, tag in combine_multi_tokens2(tag_indices):
+        entities[idx] = token, tag
   return OrderedDict(sorted(entities.items()))
 
 # Merging entities
