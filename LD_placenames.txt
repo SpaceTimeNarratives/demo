@@ -2475,15 +2475,15 @@ Keswick
 Soceres
 Cocytus
 Niagara
-Wythop.
+Wythop
 WARWICK
 Brathay
 Preston
 Clifton
 Hasness
 Melfell
-BRADNE∫
-Hor∫ley
+BRADNES
+Horsley
 Barbary
 Ireland
 Cara∫on
@@ -2639,7 +2639,6 @@ Cocker
 Tulket
 ULLOCK
 Torver
-great 
 Penrith
 Murrah
 Milton
@@ -2647,7 +2646,6 @@ Pooton
 Withop
 Wallow
 Hesket
-lower 
 Levens
 Bothel
 Lodore
@@ -2768,7 +2766,7 @@ EAMON
 GRETA
 Spain
 Quito
-otley
+Otley
 QUITO
 Ellen
 Andes
@@ -2793,7 +2791,6 @@ HOLM
 COVE
 Sark
 Ross
-low 
 Isel
 Sion
 Bure
