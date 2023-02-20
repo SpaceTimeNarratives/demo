@@ -98,9 +98,9 @@ Coniston Water-head
 firth of the Solway
 GLENDERAMACKIN-BECK
 Coni∫ton Water-head
-Baſſenthwaite-water
-Baſſenthwaite water
-BA∫ENTHWAITE WATER
+Bassenthwaite-water
+Bassenthwaite water
+BASENTHWAITE WATER
 St. Herbert's Isle
 Gray's Inn, London
 Derwentwater Hotel
@@ -2435,7 +2435,7 @@ Chester
 Fox How
 THE PEN
 ENGLAND
-Bowneſs
+Bowness
 Wensley
 Newgate
 Norwich
@@ -2570,7 +2570,7 @@ HORNBY
 Colton
 LONDON
 TORVER
-A∫kham
+Askham
 Hornby
 Brough
 Solway
@@ -2696,7 +2696,7 @@ Warton
 Thames
 Kirkby
 FORGE
-Hawſe
+Hawse
 Ireby
 Crake
 Ripon
