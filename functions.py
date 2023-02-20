@@ -1,7 +1,10 @@
 import re
+import os
 from IPython.display import HTML
 from collections import OrderedDict
 from lemminflect import getLemma, getInflection
+
+os.chdir('demo/')
 
 BG_COLOR = {
     'PLNAME':'#feca74','GEONOUN': '#9cc9cc', 'GPE':'#feca74', 'CARDINAL':'#e4e7d2',
