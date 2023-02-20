@@ -44,7 +44,7 @@ def extract_sem_entities(processed_text, tag_types):
     tag_indices = [(i, token.idx, token.text, tag_type) for i, token in enumerate(processed_text) 
                         if token._.pymusas_tags[0].startswith(tag_type[0])]
     if tag_indices:
-      for i, idx, token, tag in combine_multi_tokens2(tag_indices):
+      for i, idx, token, tag in combine_multi_tokens(tag_indices):
         entities[idx] = token, tag
   return OrderedDict(sorted(entities.items()))
 
