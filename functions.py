@@ -27,6 +27,15 @@ def extract_entities(text, ent_list, tag='PLNAME'):
 
 combine = lambda x, y: (x[0], x[1], x[2]+' '+y[2], x[3])
 
+# Get inflections and lemmas of geo nouns
+def get_inflections(names_list):
+    gf_names_inflected = []
+    for w in names_list:
+      gf_names_inflected.append(w)
+      gf_names_inflected.extend(list(getInflection(w.strip(), tag='NNS', inflect_oov=False)))
+      gf_names_inflected.extend(list(getLemma(w.strip(), 'NOUN', lemmatize_oov=False)))
+    return list(set(gf_names_inflected))
+
 # Combines multiple adjacent semantic tokens
 # Example: [('at','TIME'), ('this','TIME'), ('point','TIME')] => [('at this point', 'TIME')] 
 def combine_multi_tokens(a_list):
@@ -75,8 +84,9 @@ def mark_up(token, tag=None):
     return f"{begin_bkgr}{token}{begin_span}{tag}{end_span}{end_bkgr}"
   return f"{token}"
 
-# generate html formatted text 
-def visualize(token_tag_list):
+# generate and return html formatted text 
+def visualize(text, entities):
+  token_tag_list = get_tagged_list(text, entities)
   start_div = f'<div class="entities" style="line-height: 2.5; direction: ltr">'
   end_div = '\n</div>'
   html = start_div
@@ -84,12 +94,3 @@ def visualize(token_tag_list):
     html += mark_up(token,tag)
   html += end_div
   return HTML(html)
-
-# Get inflections and lemmas of geo nouns
-def get_inflections(names_list):
-    gf_names_inflected = []
-    for w in names_list:
-      gf_names_inflected.append(w)
-      gf_names_inflected.extend(list(getInflection(w.strip(), tag='NNS', inflect_oov=False)))
-      gf_names_inflected.extend(list(getLemma(w.strip(), 'NOUN', lemmatize_oov=False)))
-    return list(set(gf_names_inflected))
