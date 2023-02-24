@@ -7,17 +7,23 @@ In this demonstration repository, we present a series of Python notebooks which 
 ## Code Documentation
 The code for this demo uses a collection of functions that extract and visualize entities and semantic tokens from a given text. It was written by an anonymous author and utilizes the `Spacy` library for natural language processing, the `lemminflect` library for inflection and lemmatization, and the `re` library for regular expression matching.
 
-### The functions in this code include:
-`extract_entities(text, ent_list, tag='PLNAME')`: Generates a dictionary of entities with the indexes as keys based on a list of entities and the input text.
-`get_inflections(names_list)`: Gets inflections and lemmas of geo nouns.
-`combine_multi_tokens(a_list)`: Combines multiple adjacent semantic tokens.
-`extract_sem_entities(processed_text, tag_types)`: Generates a dictionary of semantic entities combining adjacent ones based on a list of semantic token types and a processed text.
-`merge_entities(first_ents, second_ents)`: Merges two entity dictionaries.
-`get_tagged_list(text, entities)`: Generates a list of all tokens, tagged and untagged, for visualization.
-`mark_up(token, tag=None)`: Marks up a token for visualization.
-`visualize(text, entities)`: Generates and returns HTML-formatted text with tagged entitities for visualization.
-
 This code is useful for anyone who needs to extract and visualize entities and semantic tokens from a given text.
+### The functions in this code include:
+- `extract_entities(text, ent_list, tag='PLNAME')`: Generates a dictionary of entities with the indexes as keys based on a list of entities and the input text.
+
+- `get_inflections(names_list)`: Gets inflections and lemmas of geo nouns.
+
+- `combine_multi_tokens(a_list)`: Combines multiple adjacent semantic tokens.
+
+- `extract_sem_entities(processed_text, tag_types)`: Generates a dictionary of semantic entities combining adjacent ones based on a list of semantic token types and a processed text.
+
+- `merge_entities(first_ents, second_ents)`: Merges two entity dictionaries.
+
+- `get_tagged_list(text, entities)`: Generates a list of all tokens, tagged and untagged, for visualization.
+
+- `mark_up(token, tag=None)`: Marks up a token for visualization.
+
+- `visualize(text, entities)`: Generates and returns HTML-formatted text with tagged entitities for visualization.
 
 ## Licence
 To be confirmed...
