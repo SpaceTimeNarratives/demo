@@ -1,3 +1,8 @@
+"""
+This code provides functions to extract and visualize entities and semantic tokens from text. 
+Here are the descriptions of the functions:
+"""
+
 import re
 from IPython.display import HTML
 from collections import OrderedDict
@@ -12,7 +17,12 @@ BG_COLOR = {
     'EMOTION':'#f2ecd0', 'TIME-SEM':'#d0e0f2', 'MOVEMENT':'#f2d0d0','no_tag':'#FFFFFF'
 }
 
-# Generates a dictionary of entities with the indexes as keys
+"""
+Function `extract_entities(text, ent_list, tag='PLNAME')`
+This function takes a text, a list of entities (as strings), and an optional tag as input, 
+and returns a dictionary of entities with their indexes in the text as keys. 
+The optional tag parameter is used to specify the entity type, which defaults to `'PLNAME'` if not provided.
+"""
 def extract_entities(text, ent_list, tag='PLNAME'):
   sorted(set(ent_list), key=lambda x:len(x), reverse=True)
   extracted_entities = {}
@@ -24,7 +34,10 @@ def extract_entities(text, ent_list, tag='PLNAME'):
 
 combine = lambda x, y: (x[0], x[1], x[2]+' '+y[2], x[3])
 
-# Get inflections and lemmas of geo nouns
+"""
+Function `get_inflections(names_list)`
+This function takes a list of geo nouns as input and returns a list of their inflections and lemmas using the `lemminflect` package.
+"""
 def get_inflections(names_list):
     gf_names_inflected = []
     for w in names_list:
@@ -33,8 +46,13 @@ def get_inflections(names_list):
       gf_names_inflected.extend(list(getLemma(w.strip(), 'NOUN', lemmatize_oov=False)))
     return list(set(gf_names_inflected))
 
-# Combines multiple adjacent semantic tokens
-# Example: [('at','TIME'), ('this','TIME'), ('point','TIME')] => [('at this point', 'TIME')] 
+"""
+Function `combine_multi_tokens(a_list)`
+This function takes a list of adjacent semantic tokens (a semantic token is a tuple of a token
+and its tag) as input and returns a list of tuples where adjacent tokens of the same type are 
+combined into a single tuple.
+Example: `[('at','TIME'), ('this','TIME'), ('point','TIME')] => [('at this point', 'TIME')]` 
+"""
 def combine_multi_tokens(a_list):
   new_list = [a_list.pop()]
   while a_list:
@@ -45,7 +63,11 @@ def combine_multi_tokens(a_list):
       new_list.append(last)
   return sorted(new_list)
 
-# Generates a dictionary of semantic entities combining adjacent ones
+"""
+Function `extract_sem_entities(processed_text, tag_types)`
+This function takes processed text and a list of semantic tags as input and returns a
+dictionary of semantic entities with their indexes in the text as keys.
+"""
 def extract_sem_entities(processed_text, tag_types):
   entities, tokens = {}, [token.text for token in processed_text]
   for tag_type in tag_types:
@@ -56,11 +78,18 @@ def extract_sem_entities(processed_text, tag_types):
         entities[idx] = token, tag
   return OrderedDict(sorted(entities.items()))
 
-# Merging entities
+"""
+Function `merge_entities(first_ents, second_ents)`
+This function takes two dictionaries of entities and returns a merged dictionary.
+"""
 def merge_entities(first_ents, second_ents):
   return OrderedDict(sorted({** second_ents, **first_ents}.items()))
 
-# Generates a list of all tokens, tagged and untagged, for visualisation
+"""
+Function `get_tagged_list(text, entities)`
+This function takes text and a dictionary of entities as input and returns a list of tuples where
+each tuple contains a token and its tag.
+"""
 def get_tagged_list(text, entities):
   begin, tokens_tags = 0, []
   for start, (ent, tag) in entities.items():
@@ -71,7 +100,12 @@ def get_tagged_list(text, entities):
   tokens_tags.append((text[begin:], None)) #add the last untagged chunk
   return tokens_tags
 
-# Marking up the token for visualization
+"""
+Function `mark_up(token, tag=None)`
+This function takes a token and an optional tag as input and returns the token surrounded
+by HTML markup that will be used for visualization. If a tag is provided, the token will be 
+highlighted with a background color corresponding to the tag.
+"""
 def mark_up(token, tag=None):
   if tag:
     begin_bkgr = f'<bgr class="entity" style="background: {BG_COLOR[tag]}; padding: 0.05em 0.05em; margin: 0 0.15em;  border-radius: 0.55em;">'
@@ -81,7 +115,11 @@ def mark_up(token, tag=None):
     return f"{begin_bkgr}{token}{begin_span}{tag}{end_span}{end_bkgr}"
   return f"{token}"
 
-# generate and return html formatted text 
+"""
+Function `visualize(text, entities)`
+This function takes text and a dictionary of entities as input and returns an HTML-formatted
+string that visually highlights the entities in the text. 
+"""
 def visualize(text, entities):
   token_tag_list = get_tagged_list(text, entities)
   start_div = f'<div class="entities" style="line-height: 2.5; direction: ltr">'
