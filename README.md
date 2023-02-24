@@ -8,7 +8,10 @@ In this demonstration repository, we present a series of Python notebooks which 
 The code for this demo uses a collection of functions that extract and visualize entities and semantic tokens from a given text. It was written by an anonymous author and utilizes the `Spacy` library for natural language processing, the `lemminflect` library for inflection and lemmatization, and the `re` library for regular expression matching.
 
 This code is useful for anyone who needs to extract and visualize entities and semantic tokens from a given text.
-### The functions in this code include:
+
+### Functions
+The functions in this code are stored in `functions.py` file and are described as below:
+
 - `extract_entities(text, ent_list, tag='PLNAME')`: Generates a dictionary of entities with the indexes as keys based on a list of entities and the input text.
 
 - `get_inflections(names_list)`: Gets inflections and lemmas of geo nouns.
