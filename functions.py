@@ -74,7 +74,8 @@ def mark_up(token, tag=None):
   return f"{token}"
 
 # generate html formatted text 
-def visualize(token_tag_list):
+def visualize(text, entities):
+  token_tag_list = get_tagged_list(text, entities)
   start_div = f'<div class="entities" style="line-height: 2.5; direction: ltr">'
   end_div = '\n</div>'
   html = start_div
