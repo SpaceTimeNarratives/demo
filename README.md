@@ -26,10 +26,10 @@ The functions in this code are stored in `functions.py` file and are described a
 
 - `mark_up(token, tag=None)`: Marks up a token for visualization.
 
-- `visualize(text, entities)`: Generates and returns HTML-formatted text with tagged entitities for visualization.
+- `visualize(text, entities)`: Generates and returns HTML-formatted text with tagged entities for visualization.
 
 ## Citation
-If you find the notebooks and other resources in this repository useful, kindly cite as below:
+If you find the notebooks and other resources in this repository useful, kindly cite them in your work below:
 
 ```bibtex
 @inproceedings{10.1145/3615887.3627761,
@@ -49,7 +49,7 @@ location = {Hamburg, Germany},
 series = {GeoHumanities '23}
 }
 ```
-or
+or use the ACM Reference format
 
 ```
 Ignatius Ezeani, Paul Rayson, Ian Gregory, Erum Haris, Anthony Cohn, John Stell, Tim Cole, Joanna Taylor, David Bodenhamer, Neil Devadasan, Erik Steiner, Zephyr Frank, and Jackie Olson. 2023. Towards an Extensible Framework for Understanding Spatial Narratives. In Proceedings of the 7th ACM SIGSPATIAL International Workshop on Geospatial Humanities (GeoHumanities '23). Association for Computing Machinery, New York, NY, USA, 1–10. https://doi.org/10.1145/3615887.3627761
