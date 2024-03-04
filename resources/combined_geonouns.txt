@@ -674,7 +674,6 @@ foothill
 bachelor
 hallways
 quicksand
-place
 fossilized forest
 scour
 vaudeville theatre
@@ -699,7 +698,6 @@ formicary
 plage
 historical region
 stockroom
-fan
 orangery
 feeder
 cirques
@@ -708,9 +706,7 @@ lake channel
 iron mines
 intersection
 scullery
-letterboxes
 friary
-well
 natural region
 scenario
 median valley
@@ -921,7 +917,6 @@ ridges
 library
 countryside
 asparagus bed
-storm
 farms
 rabbit hole
 abandoned canal
