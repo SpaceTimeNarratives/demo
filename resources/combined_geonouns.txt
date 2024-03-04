@@ -429,7 +429,8 @@ halls
 fall
 zikkurat
 refugee camp
-mine
+the mine
+a mine
 cavity
 dome
 earthworks
@@ -438,6 +439,7 @@ cordillera
 delta
 receptions
 former sugar mill
+concentration camp
 camp
 terrain
 piedmont glacier
@@ -1009,6 +1011,7 @@ greenhouse
 maritime school
 fleapit
 hatchery
+high school
 school
 cattle dipping tank
 palaces
@@ -1318,8 +1321,6 @@ musjid
 balconies
 slums
 purlieu
-floor
-key
 cotton plantation
 coffee shop
 lava area
@@ -1376,7 +1377,6 @@ grainfield
 launching site
 premises
 landmass
-interior
 stonework
 aerie
 foundry
@@ -1555,7 +1555,6 @@ dollhouse
 salt mine
 mountains
 ministry
-bedroom
 road bend
 sand area
 grazing land
@@ -1570,6 +1569,7 @@ arctic land
 sea bottom
 henhouse
 camps
+concentration camps
 creek
 esker
 natural spring
@@ -2115,8 +2115,6 @@ divot
 schoolhouse
 residences
 gorge
-time zone
-doors
 marshalling yard
 waste-yard
 spaghetti junction
