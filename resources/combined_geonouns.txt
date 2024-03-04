@@ -595,7 +595,6 @@ sanctuary
 cataract
 salt marsh
 steps
-short
 gateway
 conference center
 ben
@@ -620,10 +619,8 @@ cowhouse
 mobile canteen
 diapir
 parking area
-dependency
 section of plateau
 sanctum
-three-bedroom
 wharf
 foreland
 aqueduct
@@ -672,7 +669,6 @@ ancient wall
 seamount
 fountain
 foothill
-bachelor
 hallways
 quicksand
 fossilized forest
