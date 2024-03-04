@@ -192,7 +192,6 @@ shacked
 four-storey
 not available
 State Exam Prep Centre
-neighbors
 brothel
 summit
 cavern
@@ -464,9 +463,6 @@ abbey
 outbuilding
 peach orchard
 student residence
-tent
-circus
-mouth
 palisades
 baltic republic
 cowtown
@@ -479,7 +475,6 @@ promontory
 abandoned camp
 chain
 abandoned railroad stop
-overlook
 steeples
 bogs
 passages
@@ -542,7 +537,7 @@ houses
 lake beds
 vale
 basketball court
-assembly
+assembly place
 abandoned factory
 church
 agricultural school
@@ -565,7 +560,6 @@ swale
 limekiln
 fracture zone
 dormer
-neighbor
 headstream
 heronry
 military installation
@@ -943,7 +937,7 @@ boathouse
 coffee bar
 bomb site
 irrigation ditch
-square
+market square
 abandoned mission
 ceiling
 sandpit
@@ -1258,8 +1252,6 @@ caravanserai
 piste
 packinghouse
 ramp
-sitting
-target
 land mass
 hotel
 oil palm plantation
@@ -1269,11 +1261,9 @@ rink
 sluice
 formation
 anabranch
-bell
 crater lake
 residence
 bowling green
-cubicle
 intermittent salt pond
 wood
 rift valley
@@ -1435,9 +1425,6 @@ construction
 scene of action
 oxbow
 intermittent reservoir
-rebuild
-main
-solitude
 sanitarium
 veldt
 eating place
@@ -1452,8 +1439,6 @@ spot
 borough
 paving
 center field
-economic region
-horseback
 stairwells
 aquaculture facility
 waterhole
@@ -1482,7 +1467,6 @@ bathyal zone
 sandbar
 woodworks
 scaffolds
-down
 cow town
 oilfield
 quay
@@ -1585,7 +1569,6 @@ mountains
 ministry
 bedroom
 road bend
-stately
 sand area
 grazing land
 mountain pass
@@ -1593,13 +1576,10 @@ acclivity
 overflow
 riparian forest
 sea
-staircase
 campsite
 butte
 arctic land
 sea bottom
-freehold
-box
 henhouse
 camps
 creek
@@ -1609,7 +1589,6 @@ station
 airbase
 waterfall
 cow barn
-new world
 dykes
 theater in the round
 wells
@@ -1619,7 +1598,6 @@ oases
 nickel mine
 basements
 leprosarium
-storeys
 fraternity house
 locks
 inn
@@ -1644,7 +1622,6 @@ settlement
 creche
 tree
 dikes
-floors
 railroad stop
 farm building
 baling station
@@ -1693,7 +1670,6 @@ bed of roses
 crossing
 toxic waste site
 main street
-wall
 corrie
 sheds
 valleys
@@ -1710,7 +1686,6 @@ seamounts
 farmhouse
 centre continuous learning
 moorland
-staircases
 intermittent pond
 continental shelf
 surroundings
@@ -1918,9 +1893,9 @@ gatehouse
 horse barn
 meander neck
 promenade
-coal
 quarry
 field of honor
+backcountry
 back country
 pueblo
 call center
@@ -2054,11 +2029,9 @@ talus slope
 hacienda
 rapid
 canyonside
-lot
 beck
 railway line
 land-tied island
-ice
 sandlot
 privy
 tidal basin
@@ -2133,7 +2106,6 @@ ice field
 ascent
 earth
 windmill
-front
 common land
 rocks
 rabbit warren
