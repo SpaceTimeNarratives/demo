@@ -10,6 +10,7 @@ safety zone
 section of estate
 section of populated place
 refuse heap
+American boat
 fjords
 rough
 semidetached house
@@ -851,9 +852,8 @@ ritz
 wind motor
 city hall
 greasy spoon
-side
 estuary
-end
+deep end
 nerve center
 barrier island
 pinetum
@@ -864,8 +864,6 @@ polar zone
 irrigation canal
 windows
 flatlet
-parcel
-walk-up
 wold
 beer garden
 gorges
@@ -886,12 +884,10 @@ schoolyard
 departments
 mines
 baltic state
-postgrad & mba
 oasis
 cellars
 warren
 nerve centre
-khan
 intermittent salt lake
 loony bin
 hotbed
@@ -900,7 +896,6 @@ trash heap
 handball court
 healthcare facility
 reefs
-bedrooms
 ranches
 hot spot
 caff
@@ -922,6 +917,8 @@ rabbit hole
 abandoned canal
 stream bend
 launch pad
+launch-pad
+launchpad
 ditch mouth
 harbors
 sandy desert
