@@ -7,7 +7,6 @@ icecap
 seachannels
 roofer
 safety zone
-stop
 section of estate
 section of populated place
 refuse heap
@@ -29,7 +28,6 @@ fleabag
 depressions
 beach
 docks
-last
 pan
 clerical administrative region
 landfall
@@ -71,7 +69,6 @@ sepulchre
 section of plain
 gutter
 berm
-16th
 flowage
 amusement park
 environs
@@ -111,7 +108,6 @@ left
 cuckoo's nest
 meteorological station
 escarpment
-21st
 chicken coop
 caravansary
 coach
@@ -136,7 +132,6 @@ man-made lake
 buffer zone
 squash court
 incline
-10th
 stoneworks
 gin mill
 corner
@@ -147,7 +142,6 @@ snake pit
 mobile
 garbage heap
 coal mine
-united states government establishment
 hemisphere
 cellar
 grain field
@@ -163,7 +157,6 @@ holler
 cobble
 farm village
 stairways
-fifth
 gothic
 parterre
 coaches
@@ -380,7 +373,6 @@ opera
 shacking
 hollow
 piedmont
-seventh
 overfalls
 field house
 draw
@@ -406,7 +398,6 @@ camping site
 bailey
 ballrooms
 protected area
-33rd
 barricades
 storeroom
 anteroom
@@ -558,7 +549,6 @@ football field
 gulf
 whirlpool
 portal
-keeps
 cloisters
 navigation canal
 ocean bottom
@@ -622,7 +612,6 @@ funeral parlor
 mills
 branch
 hive
-rest
 section of waterfall
 shoal
 trough
@@ -770,7 +759,6 @@ artificial lake
 wharves
 shooting box
 mare liberum
-bed
 psychiatric hospital
 bonanza
 wallow
@@ -879,7 +867,6 @@ hayfield
 foot
 holy of holies
 florida key
-first
 picnic area
 sauna
 floodplain
@@ -973,7 +960,6 @@ ditch mouth
 harbors
 sandy desert
 wasteland
-third
 railroad station
 lane
 boathouse
@@ -984,12 +970,10 @@ square
 abandoned mission
 ceiling
 sandpit
-common
 road
 tract
 offing
 tunnels
-screen
 putting surface
 railway tunnel
 bungalows
@@ -1053,7 +1037,6 @@ inspection station
 isle
 ice cap
 atomic center
-sixth
 indoor
 ball field
 arena theater
@@ -1070,10 +1053,8 @@ pothouse
 churchyard
 greenhouse
 maritime school
-blocks
 fleapit
 hatchery
-letterbox
 school
 cattle dipping tank
 palaces
@@ -1094,9 +1075,7 @@ hall
 state capital
 bungalow
 arcade
-air
 seif dune
-waiting
 fire pit
 showplace
 fishing area
@@ -1111,12 +1090,8 @@ alluvial plain
 bivouac
 sudatorium
 iceberg
-built
 movie theater
-dining
-green
 roadstead
-drop
 barn
 music school
 auberge
@@ -1138,10 +1113,8 @@ steep
 lunar crater
 megalopolis
 nurseries
-children
 mastabah
 rotisserie
-point
 pyramid
 maternity hospital
 patios
@@ -1165,14 +1138,12 @@ copper works
 intermittent ponds
 storehouse
 alpine glacier
-paved
 swamp
 tram
 facades
 telecom hotel
 encampment
 alehouse
-semi
 veranda
 apiary
 lagoon
@@ -1276,7 +1247,6 @@ banks
 archive
 province
 automat
-center
 vaudeville theater
 kirk
 forest reserve
@@ -1425,7 +1395,6 @@ national park
 scaffold
 docking basin
 landscape
-23rd
 duplex
 back
 geographical area
@@ -1643,7 +1612,6 @@ pass
 barracks
 backwoods
 market cross
-12th
 herb garden
 country house
 dollhouse
@@ -1794,7 +1762,6 @@ beach ridge
 fountains
 strait
 grot
-second
 cuesta
 park headquarters
 office block
@@ -1843,7 +1810,6 @@ logging camp
 volcano
 trouble spot
 sporting house
-keep
 sepulcher
 coast
 tidal flat
@@ -1956,11 +1922,9 @@ home territory
 sandbank
 floored
 concession area
-13th
 semi-detached
 holiday resort
 wheatfield
-commons
 dams
 fuel depot
 craters
@@ -2104,7 +2068,6 @@ local government office
 rockfall
 grotto
 gasfield
-table
 summerhouse
 bays
 stash house
@@ -2139,7 +2102,6 @@ railway line
 land-tied island
 ice
 sandlot
-fourth
 privy
 tidal basin
 ski lodge
@@ -2206,7 +2168,6 @@ sound
 brick
 city
 student center
-door
 maar
 foundling hospital
 force
@@ -2215,12 +2176,10 @@ ground zero
 piazza
 chancellery
 penthouse
-staff
 ice field
 ascent
 earth
 windmill
-eighth
 front
 common land
 rocks
@@ -2257,9 +2216,7 @@ section of reef
 temple
 post office
 watchtowers
-top
 intermittent pool
-three
 sanitary landfill
 lighthouse
 cliff
@@ -2270,7 +2227,6 @@ igloo
 automatic teller machine
 dike
 capital
-six
 research facility
 phosphate works
 anthill
