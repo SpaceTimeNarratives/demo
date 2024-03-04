@@ -23,12 +23,9 @@ works
 burial site
 religious residence
 conference house
-look
 fleabag
-depressions
 beach
 docks
-pan
 clerical administrative region
 landfall
 jetty
@@ -61,8 +58,6 @@ trash dump
 sulphur spring
 dooryard
 buttery
-right
-window
 stock route
 tablemount
 sepulchre
@@ -104,7 +99,6 @@ oceanfront
 funeral home
 asylum
 backwater
-left
 cuckoo's nest
 meteorological station
 escarpment
@@ -139,13 +133,11 @@ stalls
 little theater
 borderland
 snake pit
-mobile
 garbage heap
 coal mine
 hemisphere
 cellar
 grain field
-old
 lagune
 porch
 terraced house
@@ -173,7 +165,6 @@ narrow
 saltbox
 stone
 architecture
-builded
 bowling alley
 retention basin
 turnip bed
@@ -247,7 +238,6 @@ toxic site
 railroad signal
 infirmary
 flume
-fences
 salt flat
 attics
 rathskeller
@@ -265,7 +255,6 @@ garret
 eating house
 locker
 marshes
-davy jones's locker
 detention basin
 intermittent salt ponds
 wildlife reserve
@@ -279,7 +268,6 @@ crater lakes
 gildhall
 bushes
 tile
-stairs
 colony
 hash house
 coconut grove
@@ -325,7 +313,6 @@ landfill
 castle
 front yard
 ice rink
-holy
 wine region
 crown
 riverbank
@@ -375,13 +362,10 @@ hollow
 piedmont
 overfalls
 field house
-draw
 teahouse
-rebuilt
 masjid
 waterway
 buttresses
-builds
 vaulting
 mining area
 mid-water
@@ -407,14 +391,12 @@ facilities
 glaziers
 putting green
 house of war
-climb
 department
 art school
 chrome mines
 attic
 outbuildings
 land site
-element
 administrative division
 fort
 current
@@ -503,7 +485,6 @@ bogs
 passages
 edifice
 embayment
-big
 gaming house
 sport facility
 land
@@ -518,8 +499,6 @@ tiltyard
 pillars
 tank farm
 morgue
-mere
-rebuilded
 badminton court
 livery stable
 jakes
@@ -807,14 +786,12 @@ annex
 western hemisphere
 screes
 street corner
-wash
 capitol
 imaret
 columbarium
 railway yard
 whorehouse
 booby hatch
-run
 woodlet
 littoral
 squat
@@ -827,7 +804,6 @@ route of transportation
 campground
 plain
 opera house
-dammed
 traffic island
 larder
 monastery
@@ -860,6 +836,7 @@ terra firma
 abandoned railroad
 pub
 junk pile
+junkpile
 channel
 mare clausum
 shelters
@@ -979,14 +956,12 @@ railway tunnel
 bungalows
 grill
 corrals
-drink
 hot spring
 lake bed
 tennis court
 vault
 slopes
 dog house
-dairy
 pump house
 bedlam
 churchyards
@@ -1016,15 +991,12 @@ coastal plain
 ruin
 stadium
 ancient road
-water
 homesteading
 kampong
 banana plantation
 country
 arroyo
-bent
 forests
-sylva
 geographical zone
 distributaries
 military school
@@ -1268,7 +1240,6 @@ conduit
 provincial capital
 trees
 marine channel
-bottom
 section of waterfalls
 hunting lodge
 rabbit burrow
@@ -1323,8 +1294,6 @@ observation point
 way station
 slum
 campus
-living
-vegetable
 pitch
 catchment basin
 cloverleaf
@@ -1346,7 +1315,7 @@ ness
 peaks
 briny
 sudatory
-israeli settlement
+Israeli settlement
 lofts
 chateau
 marina
@@ -1402,9 +1371,7 @@ cafe
 flood plain
 basement
 dock
-clearing
 sill
-centre
 iron mine
 marsh
 pagoda
@@ -1443,9 +1410,9 @@ sugar mill
 kitchen midden
 control center
 right field
-tiled
 killing field
 doghouse
+table mounts
 tablemounts
 religious building
 aviary
@@ -1503,6 +1470,7 @@ old territory
 watershed
 bathhouse
 sea floor
+sea-floor
 valley
 tidal creek
 wadi junction
@@ -1533,7 +1501,6 @@ cant
 lake channels
 woodshed
 tarn
-section of intermittent stream
 mental institution
 maisonette
 potter's field
@@ -1553,7 +1520,6 @@ cow pasture
 section of island
 plot of ground
 tor
-oracle
 presbytery
 seashore
 seat
@@ -1920,9 +1886,7 @@ volcanic crater
 seaboard
 home territory
 sandbank
-floored
 concession area
-semi-detached
 holiday resort
 wheatfield
 dams
@@ -1953,7 +1917,6 @@ grove
 outfield
 arbor
 gatehouse
-gated
 horse barn
 meander neck
 promenade
@@ -1981,7 +1944,6 @@ interdune troughs
 bus station
 stable
 ledge
-bricked
 sub-surface dam
 streams
 veterinary facility
@@ -2040,7 +2002,6 @@ laguna
 conservatoire
 vaults
 kennel
-stained
 palm tree reserve
 cybercafe
 water level
@@ -2055,7 +2016,6 @@ caravan inn
 signal tower
 taphouse
 arbors
-lathed
 gut
 coops
 field of battle
@@ -2126,7 +2086,6 @@ swell
 apron
 interdune trough
 shelter
-architectured
 highland
 water tower
 local
@@ -2319,14 +2278,13 @@ barricade
 blind corner
 coal mines
 house of ill repute
-northern europe
+Northern Europe
 race track
 rose bed
 resort
 cowbarn
 barren
 post house
-vaulted
 prison
 gambling den
 ponds
@@ -2339,4 +2297,3 @@ dust bowl
 reef
 broom
 second-floor
-architecturally
