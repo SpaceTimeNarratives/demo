@@ -2289,7 +2289,6 @@ prison
 gambling den
 ponds
 home court
-head
 frontage
 adobe house
 buildings
