@@ -1085,7 +1085,7 @@ orphan site
 canalized stream
 abandoned prison
 rubbish heap
-deep
+Jewish
 indoor garden
 cafeteria
 chalets
@@ -1872,6 +1872,7 @@ mud puddle
 sisal plantation
 windowsill
 grove
+ghetto
 outfield
 arbor
 gatehouse
@@ -1896,7 +1897,6 @@ trash pile
 burial cave
 extension
 steamer
-eating
 flats
 interdune troughs
 bus station
