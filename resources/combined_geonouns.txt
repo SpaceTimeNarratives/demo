@@ -1795,7 +1795,6 @@ towers
 research institute
 cone
 mud
-pans
 pantries
 hillside
 soddy
