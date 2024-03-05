@@ -809,9 +809,7 @@ aisle
 rest house
 residence hall
 reconstruction
-high
 kettle hole
-tongue
 drainpipe
 ghost town
 ducts
@@ -1353,7 +1351,6 @@ sill
 iron mine
 marsh
 pagoda
-dig
 whaling station
 hencoop
 cottages
