@@ -1589,7 +1589,6 @@ free house
 estates
 falls
 grounds
-medium
 sand dune
 forest
 call centre
