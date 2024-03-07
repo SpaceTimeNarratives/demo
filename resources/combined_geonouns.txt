@@ -1,4 +1,3 @@
-pasture
 row house
 arena
 wadi
@@ -1728,7 +1727,6 @@ lady chapel
 dosshouse
 dry land
 rendezvous
-news
 logging camp
 volcano
 trouble spot
@@ -1774,7 +1772,6 @@ cubicles
 pillar
 racetrack
 nesting place
-glaziering
 semidesert
 garbage dump
 downhill
