@@ -566,6 +566,8 @@ heronry
 military installation
 llano
 gas-oil separator plant
+gas chambers
+gas chamber
 scene
 road junction
 bricklaying
